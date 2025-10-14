@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS Example</title>
+    <style>
+        body {
+            background-image: url(/img/tom-jerry-picture-260nw-2595542241.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: rgb(127, 248, 52);
+        }
+        p{
+            color:brown
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Internal CSS</h1>
+    <p>This page is styled using internal CSS, defined in the head section.</p>
+</body>
+</html>
+
+Explanation:
+Internal CSS is defined using the <style> tag within the <head> of the document.
+
+
+
+2. External CSS
+In this example, the CSS is stored in an external file and linked to the HTML document using the <link> tag.
+HTML File (index.html):
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External CSS Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>External CSS Example</h1>
+    <p>This page is styled using an external CSS file.</p>
+</body>
+</html>
